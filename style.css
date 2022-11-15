@@ -1,0 +1,519 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.paragraph {
+    width: 150%;
+}
+
+.containe {
+    margin-left: 30px;
+}
+
+.svg-icon {
+    width: 160px;
+    margin-top: 27px;
+    fill: rgb(255, 9, 9);
+}
+
+.ui-select {
+    margin-top: 28px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 160px;
+}
+
+.button {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    padding: 7px 20px;
+    margin-top: 29px;
+    border-radius: 5px;
+    border: red;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: white;
+}
+
+
+.jumbotron {
+    background-image: url(img/jumbotron.jpg);
+    height: 700px;
+    margin-top: -70px;
+    background-size: cover;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+.jumbotron h1 {
+    position: absolute;
+    bottom: 258px;
+    right: 310px;
+    color: white;
+    font-size: 64px;
+    line-height: 70px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight:
+        500;
+    font-style:
+        normal;
+    font-variant:
+        normal;
+    text-decoration:
+        none solid rgb(255, 255, 255);
+    text-align:
+        center;
+    text-indent:
+        0px;
+}
+
+.jumbotron h2 {
+    position: absolute;
+    bottom: 220px;
+    right: 430px;
+    color: white;
+    line-height: normal;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-size: 26px;
+    word-spacing: 0px;
+    font-weight: 400;
+    font-style:
+        normal;
+    font-variant:
+        normal;
+    text-transform:
+        none;
+    text-decoration:
+        none solid rgb(255, 255, 255);
+    text-align:
+        center;
+    text-indent:
+        0px
+}
+
+.jumbotron h3 {
+    position: absolute;
+    bottom: 170px;
+    right: 320px;
+    color: white;
+    font-size: 19px;
+    line-height:
+        normal;
+    vertical-align:
+        baseline;
+    letter-spacing:
+        normal;
+    word-spacing:
+        0px;
+    font-weight:
+        400;
+    font-style:
+        normal;
+    font-variant:
+        normal;
+    text-transform:
+        none;
+    text-decoration:
+        none solid rgb(255, 255, 255);
+    text-align:
+        center;
+    text-indent:
+        0px;
+}
+
+.jumbotron form {
+    position: absolute;
+    bottom: 90px;
+    right: 256px;
+}
+
+.jumbotron input {
+    width: 498px;
+    height: 68px;
+}
+
+.jumbotron button {
+    width: 236px;
+    height: 70px;
+    margin-left: -5px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.garis {
+    background-color: rgb(89, 88, 88);
+}
+
+.garis hr {
+    border: 5px solid rgb(63, 62, 62);
+    margin-top: -3px;
+}
+
+.enjoy {
+    background-color: black;
+    margin-top: -17px;
+    margin-left: -270px;
+    height: 510px;
+}
+
+.enjoy h1 {
+    width: 837px;
+    padding-top: 154px;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 55px;
+    margin-left: 200px;
+}
+
+.enjoy h2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    margin-top: 37px;
+    margin-left: 200px;
+}
+
+.enjoy img {
+    width: 500px;
+    position: absolute;
+    top: 780px;
+    right: 90px;
+    overflow: hidden;
+}
+
+.enjoy video {
+    width: 370px;
+    margin-top: 150px;
+    margin-left: 73px;
+}
+
+.download {
+    background-color: black;
+    margin-top: -16px;
+}
+
+.download h1 {
+    margin-top: 140px;
+    font-size: 40px;
+    color: white;
+}
+
+.download h2 {
+    font-size: 26px;
+    color: white;
+    margin-top: 14px;
+}
+
+.download img {
+    margin-top: 40px;
+    margin-left: -40px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.watch {
+    height: 450px;
+    background-color: black;
+    margin-top: -16px;
+    color: white;
+}
+
+.watch h1 {
+    margin-top: 156px;
+    font-size: 50px;
+}
+
+.watch h2 {
+    font-size: 26px;
+}
+
+.watch img {
+    width: 490px;
+    margin-left: -40px;
+    margin-top: 73px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.watch video {
+    width: 320px;
+    margin-top: 110px;
+    margin-left: 45px;
+}
+
+.create {
+    background-color: black;
+    color: white;
+    margin-top: -16px;
+    padding-bottom: 80px;
+}
+
+.create img {
+    width: 440px;
+    margin-top: 100px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+}
+
+.create h1 {
+    font-size: 42px;
+    margin-top: 181px;
+}
+
+.create h2 {
+    font-size: 26px;
+}
+
+.question h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.question svg {
+    width: 30px;
+    margin-top: -1px;
+    transform: rotate(45deg);
+    fill: white;
+}
+
+.question button {
+    margin-left: 260px;
+    width: 730px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #303030;
+    color: white;
+    margin-top: 9px;
+}
+
+.question svg {
+    margin-left: 399px;
+}
+
+.question-1 svg {
+    margin-left: 221px;
+}
+
+.question-2 svg {
+    margin-left: 348px;
+}
+
+.question-3 svg {
+    margin-left: 380px;
+}
+
+.question-4 svg {
+    margin-left: 228px;
+}
+
+.question-5 svg {
+    margin-left: 292px;
+}
+
+.question h3 {
+    font-size: 19px;
+    text-align: center;
+    margin-top: 66px;
+    margin-bottom: 8px;
+}
+
+.question .form {
+    position: absolute;
+    bottom: 90px;
+    right: 200px;
+}
+
+.question input {
+    width: 498px;
+    height: 68px;
+    padding-top: 10px;
+    margin-left: 250px;
+}
+
+
+.question .button-1 {
+    width: 236px;
+    height: 70px;
+    margin-left: -5px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: black;
+    margin-top: -16px;
+    padding-top: 60px;
+    padding-bottom: 38px;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer p {
+    padding-left: 240px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #737373;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+select {
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 1400px) {
+
+    .jumbotron {
+        height: 720px;
+    }
+
+    .jumbotron h1 {
+        position: absolute;
+        top: 236px;
+        right: 471px;
+        color: white;
+        font-size: 64px;
+        line-height: 70px;
+        vertical-align: baseline;
+        letter-spacing: normal;
+        word-spacing: 0px;
+        font-weight:
+            500;
+        font-style:
+            normal;
+        font-variant:
+            normal;
+        text-decoration:
+            none solid rgb(255, 255, 255);
+        text-align:
+            center;
+        text-indent:
+            0px;
+    }
+
+    .jumbotron h2 {
+        position: absolute;
+        top: 408px;
+        right: 589px;
+        color: white;
+        line-height: normal;
+        vertical-align: baseline;
+        letter-spacing: normal;
+        font-size: 26px;
+        word-spacing: 0px;
+        font-weight: 400;
+        font-style:
+            normal;
+        font-variant:
+            normal;
+        text-transform:
+            none;
+        text-decoration:
+            none solid rgb(255, 255, 255);
+        text-align:
+            center;
+        text-indent:
+            0px
+    }
+
+    .jumbotron h3 {
+        position: absolute;
+        top: 468px;
+        right: 481px;
+        color: white;
+        font-size: 19px;
+        line-height:
+            normal;
+        vertical-align:
+            baseline;
+        letter-spacing:
+            normal;
+        word-spacing:
+            0px;
+        font-weight:
+            400;
+        font-style:
+            normal;
+        font-variant:
+            normal;
+        text-transform:
+            none;
+        text-decoration:
+            none solid rgb(255, 255, 255);
+        text-align:
+            center;
+        text-indent:
+            0px;
+    }
+
+    .jumbotron form {
+        position: absolute;
+        top: 508px;
+        right: 419px;
+    }
+
+    .enjoy img {
+        position: absolute;
+        top: 780px;
+        right: 180px;
+    }
+
+    .enjoy video {
+        width: 370px;
+        margin-top: 132px;
+        margin-left: 118px
+    }
+
+    .question button {
+        margin-left: 430px !important;
+    }
+
+    .question input {
+        margin-left: 420px;
+    }
+
+    .question .button-1 {
+        margin-left: -5px !important;
+    }
+
+
+}
