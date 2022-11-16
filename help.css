@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+hr {
+    margin-left: -80px;
+}
+
 hr,
 h2 {
     margin-top: 40px;
@@ -20,12 +31,9 @@ h2 {
     width: 100px;
     margin-top: 10px;
     fill: rgb(255, 9, 9);
-    border-right: 2px solid white;
-    padding-right: 14px;
 }
 
 .container a {
-    font-family: sans-serif;
     color: white;
     position: absolute;
     top: 25px;
@@ -72,113 +80,139 @@ h2 {
     text-decoration: none;
 }
 
+.help-center {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.help-center a {
+    color: white;
+    text-decoration: none;
+}
+
+form input {
+    width: 60%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+}
+
+input[type="search"]:focus {
+    outline: none;
+}
+
 .main {
     margin-left: 80px;
-    margin-top: 30px;
-    line-height: 50px;
-    font-weight: 800;
-    position: relative;
 }
 
-.main h1 {
-    font-size: 40px;
-    margin-top: 40px;
-    margin-bottom: -20px;
-}
-
-.main img {
-    width: 700px;
-    height: 430px;
-    margin-top: 40px;
-}
-
-.main .related {
-    width: 350px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 1px rgb(0, 0, 0, 0.2), -1px -1px rgb(0, 0, 0, 0.2);
-    border-top: red solid 10px;
-    border-radius: 5px;
-    overflow: hidden;
-    position: absolute;
-    right: 50px;
-    top: 110px;
-}
-
-.main .related h3 {
-    margin-left: 20px;
-}
-
-.main .related a {
-    margin-left: 40px;
-    color: rgba(0, 0, 0, 0.7);
-}
-
-.main .related a:hover {
-    color: rgba(0, 0, 0, 0.4);
-}
-
-.paraghrap {
-    width: 700px;
+.main h2 {
+    font-size: 24px;
     line-height: 24px;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    color: #221f1f;
 }
 
-.paraghrap p {
-    margin-top: 20px;
+.sign-in {
+    margin-left: -100px;
+    padding-left: 100px;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
-.paraghrap a {
+.sign-in a {
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #ffffff;
     text-decoration: none;
-    color: rgb(229, 9, 20);
+    margin-top: -47px;
+    padding: 1px 20px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
-.paraghrap a:hover {
-    text-decoration: underline;
+.sign-in .signin {
+    background-color: red;
+    color: white;
+    border: none;
 }
 
-.note-1 {
-    border-left: 3px solid rgb(183, 7, 7);
-    padding-left: 7px;
+.sign-in .join {
+    border: solid 1px red;
+    color: red;
 }
 
-.note {
-    font-size: 14px;
+.sign-in .join:hover {
+    color: white;
+    background-color: red;
 }
 
-.watching .start {
-    margin-top: -2px;
+
+.sign-in a:hover {
+    background-color: rgba(211, 2, 6, 0.9);
 }
 
-.watching ol {
-    margin-left: 20px;
+
+.topics ul li {
+    margin-top: 18px;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7), -1px -1px 1px rgba(255, 255, 255, 0.7);
 }
 
-.watching li {
-    margin-top: -10px;
-}
-
-.watching a {
-    margin-top: 20px;
-}
-
-.help {
-    margin-top: 30px;
-    margin-bottom: 70px;
-}
-
-.help button {
-    text-decoration: underline;
-    background-color: white;
-    border: solid white;
+.topics a {
+    text-decoration: none;
     color: black;
-    cursor: pointer;
 }
 
-.help button:hover {
-    color: rgb(123, 128, 128);
+.topics a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.started {
+    max-width: 100%;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+.main-1 h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-1 ul {
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main-1 li {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.main-1 a {
+    color: #221f1f;
+    text-decoration: none;
+}
+
+.main-1 a:hover {
+    text-decoration: underline;
+    color: red;
 }
 
 .contact {
@@ -191,6 +225,10 @@ h2 {
     padding-top: 30px;
     padding-bottom: 30px;
     position: relative;
+}
+
+.contact h3 {
+    margin-left: 70px;
 }
 
 .contact a {

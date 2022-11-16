@@ -379,6 +379,7 @@ body {
     list-style-type: none;
 }
 
+
 .footer p {
     padding-left: 240px;
     margin-bottom: 40px;
@@ -387,6 +388,8 @@ body {
 }
 
 .footer a {
+    font-weight: 400;
+    font-size: 10px;
     text-decoration: none;
     color: #737373;
 }
